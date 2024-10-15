@@ -11,6 +11,8 @@ html {
 
 body {
   color: #151618;
+  /* font-family: "Cormorant", serif; */
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.5;
@@ -36,28 +38,19 @@ a {
 /*---------------------------------------------------*/
 
 /* ---------- Header components start ---------- */
-
-.header {
-}
-
 .header__inner {
   align-items: center;
-  background-color: red;
   display: flex;
   justify-content: space-between;
   min-height: 140px;
   margin: 30px 0;
 }
 
-.logo {
-  margin-bottom: 35px;
-}
-
-.menu {
-}
-
 .menu__list {
+  font-size: 18px;
+  font-weight: 400;
   gap: 0 65px;
+  margin-left: 85px;
 }
 
 .menu__list,
@@ -66,24 +59,17 @@ a {
   display: flex;
 }
 
-.menu__item {
-}
-
-.menu__link {
-}
-
 .user-actions {
   gap: 0 20px;
-}
-
-.user-actions__item {
 }
 
 .user-actions__item-search {
   margin-left: 80px;
 }
 
-.user-actions__link {
-}
-
 /* ---------- Header components finish ---------- */
+
+/*---------------------------------------------------*/
+
+/* ---------- Responsive components start ---------- */
+/* ---------- Responsive components finish ---------- */
