@@ -28,6 +28,7 @@ a {
 }
 
 button {
+  background-color: transparent;
   border: none;
   padding: 0;
 }
@@ -203,6 +204,24 @@ button {
     text-align: center;
     right: 0;
     width: 360px;
+  }
+
+  .menu__close-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  .menu__item {
+    font-family: "Cormorant", serif;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .mobile-menu {
+    margin: 0 30px;
+    margin-top: 60px;
+    padding-top: 60px;
   }
 }
 
