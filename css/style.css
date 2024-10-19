@@ -56,6 +56,20 @@ button {
   margin-bottom: 35px;
 }
 
+.menu--close {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.menu--close.menu--open {
+  display: block;
+}
+
 .menu__btn {
   display: none;
   flex-direction: column;
@@ -81,6 +95,11 @@ button {
 .user-actions {
   align-items: center;
   display: flex;
+}
+
+.menu__close,
+.mobile-nav {
+  display: none;
 }
 
 .user-actions {
@@ -202,8 +221,20 @@ button {
     left: 0;
     top: 0;
     text-align: center;
+    transition: transform 0.7s ease;
+    transform: translateY(-100%);
+
     right: 0;
-    width: 360px;
+    width: 480px;
+  }
+
+  .menu__list.menu__list--open {
+    transform: translateY(0%);
+  }
+
+  .menu__close,
+  .mobile-nav {
+    display: block;
   }
 
   .menu__close-btn {
@@ -219,9 +250,22 @@ button {
   }
 
   .mobile-menu {
-    margin: 0 30px;
-    margin-top: 60px;
+    border-top: 2px solid #f7f2ea;
+    margin: 60px 30px;
     padding-top: 60px;
+  }
+
+  .mobile-menu__item {
+    margin-bottom: 35px;
+  }
+
+  .mobile-actions {
+    align-items: center;
+    background-color: #f7f2ea;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    padding: 0 80px;
   }
 }
 
@@ -272,6 +316,10 @@ button {
 
   .header__inner {
     padding: 10px 0;
+  }
+
+  .menu__list {
+    width: 360px;
   }
 }
 
