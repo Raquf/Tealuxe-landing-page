@@ -188,9 +188,6 @@ button {
   text-align: center;
 }
 
-.assortment__item {
-}
-
 .assortment__img {
   max-height: 208px;
   max-width: 208px;
@@ -377,6 +374,11 @@ button {
   .menu__list {
     width: 360px;
   }
+
+  .blockquote__text {
+    margin-bottom: 60px;
+  }
+
   .assortment__list {
     gap: 0;
   }
@@ -413,6 +415,15 @@ button {
     max-width: 340px;
     margin-bottom: 80px;
     margin-top: 70px;
+  }
+
+  .assortment__title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .assortment__img {
+    max-width: 170px;
   }
 }
 /* ---------- Responsive components finish ---------- */
