@@ -122,7 +122,7 @@ button {
 
 /* ---------- Main components start ---------- */
 
-/* ---------- "Top section" components start ---------- */
+/* ---------- "Top" section components start ---------- */
 .top {
   background: url(../images/section/top/top-bg.jpg) bottom left/ cover no-repeat;
 }
@@ -167,7 +167,35 @@ button {
   max-width: 705px;
   text-align: center;
 }
-/* ---------- "Top section" components finish ---------- */
+/* ---------- "Top" section components finish ---------- */
+
+/* ---------- "Assortment" section components start ---------- */
+.assortment {
+  margin-bottom: 150px;
+}
+
+.assortment__list {
+  display: flex;
+  gap: 0 40px;
+  text-align: center;
+}
+
+.assortment__item {
+}
+
+.assortment__img {
+  max-height: 208px;
+  max-width: 208px;
+  width: 100%;
+}
+
+.assortment__name {
+  font-family: "Cormorant", serif;
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+/* ---------- "Assortment" section components finish ---------- */
 
 /* ---------- Main components finish ---------- */
 
@@ -199,6 +227,10 @@ button {
   .blockquote__text {
     margin-bottom: 135px;
     margin-top: 120px;
+  }
+
+  .assortment__list {
+    gap: 0;
   }
 }
 
