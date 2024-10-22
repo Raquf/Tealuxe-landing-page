@@ -455,7 +455,7 @@ button {
 
 @media (max-width: 360px) {
   .title {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
 
   .header__inner {
