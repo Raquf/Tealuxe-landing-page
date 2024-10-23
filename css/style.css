@@ -246,9 +246,6 @@ button {
   padding: 150px 0;
 }
 
-.main-blog__title {
-}
-
 .main-blog__list {
   display: flex;
   flex-wrap: wrap;
@@ -259,9 +256,6 @@ button {
   display: flex;
   flex-basis: 542px;
   gap: 0 20px;
-}
-
-.main-blog__item-img {
 }
 
 .main-blog__item-content {
@@ -310,33 +304,95 @@ button {
 
 /* ---------- "Mailing list" section components start ---------- */
 .mailing-list {
+  background: #f7f2ea url(../images/section/main-blog/tea-bg.png) right /
+    contain no-repeat;
+  padding: 100px 0;
 }
 
 .mailing-list__title {
+  margin-bottom: 50px;
+  text-align-last: left;
 }
 
 .mailing-list__inner {
+  display: flex;
+  gap: 60px 40px;
 }
 
 .mailing-list__text {
+  flex-basis: 580px;
+  line-height: 1.5;
 }
 
 .mailing-list__form {
+  display: flex;
+  flex-basis: 580px;
+  flex-wrap: wrap;
 }
 
 .mailing-list__email {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #b8b58b;
+  margin-right: 25px;
+  padding: 3px 15px;
+  width: 434px;
+}
+
+.mailing-list__email,
+.mailing-list__email::placeholder {
+  color: #b8b58b;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
 }
 
 .mailing-list__btn {
+  background-color: #fff;
+  border: 1px solid #151618;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 12px 41px;
+}
+
+.mailing-list__label {
+  margin-top: 16px;
 }
 
 .checkbox {
+  overflow: hidden;
+  padding-left: 20px;
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+}
+
+.checkbox:checked + .checkbox-style::before {
+  background-color: #151618;
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  left: 1px;
+  top: 1px;
 }
 
 .checkbox-style {
+  background-color: #fff;
+  border: 1px solid #151618;
+  margin-top: 5px;
+  position: absolute;
+  height: 10px;
+  width: 10px;
 }
 
 .checkbox__text {
+  font-size: 13px;
+  padding-left: 20px;
 }
 /* ---------- "Mailing list" section components finish ---------- */
 
