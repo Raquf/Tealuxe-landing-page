@@ -398,18 +398,29 @@ button {
 
 /* ---------- "Prioritise" section components start ---------- */
 .prioritise {
-}
-
-.prioritise__title {
+  padding: 150px 0;
 }
 
 .prioritise__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 49px;
+  justify-content: center;
+  text-align: center;
 }
 
 .prioritise__item {
 }
 
+.prioritise__item-title {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
 .prioritise__text {
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 /* ---------- "Prioritise" section components finish ---------- */
 
