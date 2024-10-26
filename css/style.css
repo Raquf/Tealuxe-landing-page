@@ -311,7 +311,7 @@ button {
 
 .mailing-list__title {
   margin-bottom: 50px;
-  text-align-last: left;
+  text-align: left;
 }
 
 .mailing-list__inner {
@@ -409,9 +409,6 @@ button {
   text-align: center;
 }
 
-.prioritise__item {
-}
-
 .prioritise__item-title {
   font-size: 30px;
   font-weight: 300;
@@ -467,6 +464,44 @@ button {
   .reviews__item:last-child {
     display: none;
     justify-content: center;
+  }
+
+  .main-blog {
+    padding: 120px 0;
+  }
+
+  .main-blog__list {
+    gap: 67px 20px;
+  }
+
+  .main-blog__item {
+    flex-basis: 460px;
+  }
+
+  .main-blog__item-img {
+    max-width: 230px;
+  }
+
+  .main-blog__link {
+    margin-top: 60px;
+  }
+
+  .mailing-list {
+    padding: 60px 0;
+  }
+
+  .mailing-list__title {
+    text-align: center;
+  }
+
+  .mailing-list__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .mailing-list__text {
+    flex-basis: 780px;
+    text-align: center;
   }
 }
 
