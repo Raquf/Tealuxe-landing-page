@@ -427,62 +427,117 @@ button {
 
 /* ---------- Footer components start ---------- */
 .footer {
+  background-color: #f7f2ea;
+  padding: 100px 0 20px;
 }
 
 .footer__inner {
+  display: grid;
+  gap: 0 40px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 100px;
 }
 
 .footer__company {
 }
 
-.footer__company-title {
+.footer__products-title,
+.footer__company-title,
+.footer__contacts-title {
+  font-family: "Cormorant", serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 50px;
 }
 
+.footer__products-item,
 .footer__company-item {
+  margin-bottom: 20px;
 }
 
 .footer__company-link {
 }
 
-.footer__blockquote {
-}
-. footer__blockquote-text {
+.footer__blockquote-text {
+  font-style: italic;
+  margin-bottom: 20px;
+  margin-top: 80px;
 }
 
 .footer__blockquote-author {
+  font-size: 12px;
+  font-style: normal;
+}
+
+.footer__blockquote-author span {
+  display: block;
 }
 
 .foooter__contacts {
 }
 
-.footer__contacts-title {
-}
-
 .footer__contacts-text {
+  font-size: 13px;
+  margin-bottom: 20px;
 }
 
 .footer__nav {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .footer__nav-logo {
+  margin-right: 40px;
 }
 
 .footer__logo {
 }
 
 .footer__nav-contacts {
+  margin-top: 20px;
 }
 
-.footer__nav-phone {
+.footer__nav-phone,
+.footer__nav-email {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 32px;
+}
+
+.footer__nav-phone::before {
+  background-image: url(../images/icon/contacts/phone.svg);
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  height: 21px;
+  width: 21px;
+}
+
+.footer__nav-email::before {
+  background-image: url(../images/icon/contacts/mail.svg);
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  height: 16px;
+  width: 22px;
 }
 
 .footer__nav-email {
 }
 
 .footer__social {
+  margin-left: 97px;
+  margin-top: 40px;
 }
 
 .footer__social-list {
+  align-items: center;
+  display: flex;
+  gap: 0 20px;
 }
 
 .footer__social-item {
@@ -492,12 +547,17 @@ button {
 }
 
 .footer__bottom {
+  display: flex;
 }
 
 .footer__copy {
+  font-size: 16px;
+  margin-right: 192px;
 }
 
 .partners-logo {
+  display: flex;
+  gap: 0 20px;
 }
 
 .partners-logo__item {
