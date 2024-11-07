@@ -905,9 +905,63 @@ button {
     padding: 60px 0;
   }
 
+  .footer {
+    padding: 50px 0 10px;
+  }
+
   .footer__inner {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .footer__products {
+    margin-right: auto;
+    padding-right: 20px;
+  }
+
+  .footer__products-title,
+  .footer__company-title {
+    margin-bottom: 30px;
+  }
+
+  .footer__company {
+    margin-right: 55px;
+    padding-right: 20px;
+  }
+
+  .footer__blockquote {
+    width: 100%;
+  }
+
+  .footer__blockquote-text {
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+
+  .footer__contacts {
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .footer__contacts-title {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer__contacts-text {
+    text-align: center;
+  }
+
+  .footer__nav {
+    flex-wrap: nowrap;
+  }
+
+  .footer__social {
+    margin-left: 30px;
+  }
+
+  .footer__copy {
+    margin-right: auto;
   }
 }
 
@@ -1022,6 +1076,25 @@ button {
   .prioritise__text {
     font-size: 10px;
     font-weight: 400;
+  }
+
+  .footer__products {
+    padding-right: 10px;
+  }
+
+  .footer__company {
+    margin-right: 0;
+    padding-right: 15px;
+  }
+
+  .footer__nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer__social {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 /* ---------- Responsive components finish ---------- */
